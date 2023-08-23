@@ -10,15 +10,7 @@ function function2(){
 function function3(){
     document.getElementById('inpf').value = ''
 }
-// let b = '';
-
-// function function4(){
-//         //  b = b.slice(0,-1);
-//     document.getElementById('inpf').value = b.slice(0,-1);
-// }
-    let displayValue = '';
-function clearLastCharacter() {
-    displayValue = displayValue.slice(0, -1);
-    document.getElementById('inpf').value = displayValue;
+function function5(){
+    var u =document.getElementById('inpf').value;
+    document.getElementById('inpf').value = u.slice(0, -1)
 }
-
