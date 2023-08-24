@@ -11,6 +11,6 @@ function function3(){
     document.getElementById('inpf').value = ''
 }
 function function5(){
-    var u =document.getElementById('inpf').value;
-    document.getElementById('inpf').value = u.slice(0, -1)
+    var u =document.getElementById('inpf')
+    u.value = u.value.slice(0, -1)
 }
