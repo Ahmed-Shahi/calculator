@@ -1,0 +1,32 @@
+#clear{
+    width: 159px;
+
+}
+#inpf{
+    font-size: 50px;
+    color: cadetblue;
+    height: 70px;
+    width: 315px;
+    position: relative;
+    right: 3px;
+    box-shadow: 2px 2px 20px black
+    
+}
+.btn{
+    width: 80px;
+    background-color: white;
+
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;   
+    background-color: grey;
+}
+
+.btn-main{
+    box-shadow: 2px 2px 20px black
+
+}
